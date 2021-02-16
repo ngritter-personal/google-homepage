@@ -1,23 +1,36 @@
-div {
-    display: block;
-    text-align: center;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 li {
-    display: inline;
+    display: block;
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #222;
+}
+
+.footer-bar {
+    position: fixed;
+    bottom: 0;
+    padding: 6px;
+    height: 60px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    vertical-align: middle;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.entire-page {
 }
 
 .nav-bar {
@@ -25,14 +38,11 @@ li {
     height: 60px;
     font-size: 14px;
     font-family: arial,sans-serif;
-    color: #222;
-    display: flex;
+    vertical-align: middle;
 }
 
-.nav-bar-left {
-}
-
-.nav-bar-right {
+.second-banner {
+    text-align: center;
 }
 
 .search-elements {
