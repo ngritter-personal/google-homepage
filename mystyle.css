@@ -18,16 +18,36 @@ li a {
     color: #222;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
 .footer-bar {
+    color: rgb(112, 117, 122);
     position: fixed;
     bottom: 0;
-    padding: 6px;
     height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 14px;
     font-family: arial,sans-serif;
     vertical-align: middle;
-    width: 100%;
+    width: 97%;
     background-color: rgb(242, 242, 242);
+}
+
+.carbon-neutral {
+    padding: 20px 0px;
+    text-decoration: none;
+    color: #222;
+}
+
+.leaf-image {
+    height: 14px;
 }
 
 .entire-page {
@@ -80,4 +100,43 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.eye-glass {
+    height: 30px;
+    padding-right: 15px;
+    padding-top: 2.5px;
+}
+
+.mic {
+    height: 30px;
+    padding-left: 15px;
+}
+
+.fourth-banner {
+    text-align: center;
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
